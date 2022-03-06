@@ -7,8 +7,8 @@ from sklearn.ensemble import RandomForestClassifier
 # Creaing Heading and small description
 st.write("""
 # Simple Iris Flower Prediction App
-## *Created by* **Sakshi Gajanan Thombre**
-This app predics the **iris** flower type:
+## By Sakshi Gajanan Thombre
+This app predicts the iris flower type
 """)
 
 # Creating a sidebar for getting input parameters
@@ -53,7 +53,7 @@ st.write(iris.target_names)
 
 st.subheader('Prediction')
 st.write(iris.target_names[prediction])
-#st.write(prediction)
+
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
